@@ -5,8 +5,7 @@ Within **EllipseAI_PredictDroplets**, you will find a **pretrained neural networ
 
 The images can be downloaded from the following repository: [Zenodo Repository](https://zenodo.org/records/13862494).
 
-Additionally, related Python codes for **controlling, capturing, and processing droplet images** can be found in the following repository:  
-[**InkJetDroplet**](https://github.com/DropletDynamics/InkJetDroplet).  
+Additionally, related Python codes for **controlling, capturing, and processing droplet images** can be found in the following repository: [**InkJetDroplet**](https://github.com/DropletDynamics/InkJetDroplet).  
 
 The semi-axis values are predicted based on the **operational parameters** that define the voltage signal used by the **[MicroDrop inkjet dispenser device](https://www.microdrop.de/)**, which was used to generate the predicted droplets.
 
