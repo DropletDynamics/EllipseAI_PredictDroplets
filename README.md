@@ -22,5 +22,20 @@ For more details, you can refer to the following research paper: [_Data-Driven A
 
 - **Ellipse Visualization (`ellipse_generator.py`)** – A script that reads the **predicted semi-axis values** and generates **visual representations** of the ellipses, saving them as images.
 
+## How to Use  
+
+The **operational parameters** required for prediction must be **pre-stored** in the `input.csv` file. 
+
+The provided `input.csv` is **preloaded with specific parameters**, but these values can be modified as needed. 
+
+For reference on parameter selection, see:  [_Data-Driven Analysis of Droplet Morphology in Inkjet Systems: Toward Generating Stable Single-Drop Regimes_](https://doi.org/10.48550/arXiv.2501.13801).  
+
+To generate predictions, run `predict.py`, which will process `input.csv` and create `output.csv`, containing the **predicted semi-axis values** of ellipses. 
+
+Once `output.csv` is generated, use `ellipse_generator.py` to **plot and visualize the predicted ellipses**. 
+This script will read the **predicted values** from `output.csv` and generate **ellipse images**, saving them in an output folder. 
+
+Visualization settings, such as scaling and colors, can be adjusted in `ellipse_generator.py` to match user preferences.  
+
 ## How to Cite
 If you use **EllipseAI_PredictDroplets**, please cite the following: [EllipseAI_PredictDroplets](https://github.com/AngelaAresdeParga/EllipseAI_PredictDroplets).
