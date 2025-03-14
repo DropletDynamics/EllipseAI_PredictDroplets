@@ -1,7 +1,12 @@
 # EllipseAI_PredictDroplets
 Neural network-based model for predicting the semi-axis features of ellipses that encapsulate primary droplet heads.
 # Overview  
-Within **EllipseAI_PredictDroplets**, you will find a **neural network-based model** designed to predict the **semi-axis values of ellipses** fitted to the heads of droplets identified in images. These images can be downloaded from the following repository: [Zenodo Repository](https://zenodo.org/records/13862494).
+Within **EllipseAI_PredictDroplets**, you will find a **pretrained neural network-based model** used to predict the **semi-axis values of ellipses** fitted to the heads of droplets identified in images. 
+
+The images can be downloaded from the following repository: [Zenodo Repository](https://zenodo.org/records/13862494).
+
+Additionally, related Python codes for **controlling, capturing, and processing droplet images** can be found in the following repository:  
+[**InkJetDroplet**](https://github.com/DropletDynamics/InkJetDroplet).  
 
 The semi-axis values are predicted based on the **operational parameters** that define the voltage signal used by the **[MicroDrop inkjet dispenser device](https://www.microdrop.de/)**, which was used to generate the predicted droplets.
 
