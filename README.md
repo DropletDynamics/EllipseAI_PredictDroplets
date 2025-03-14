@@ -33,6 +33,7 @@ For reference on parameter selection, see:  [_Data-Driven Analysis of Droplet Mo
 To generate predictions, run `predict.py`, which will process `input.csv` and create `output.csv`, containing the **predicted semi-axis values** of ellipses. 
 
 Once `output.csv` is generated, use `ellipse_generator.py` to **plot and visualize the predicted ellipses**. 
+
 This script will read the **predicted values** from `output.csv` and generate **ellipse images**, saving them in an output folder. 
 
 Visualization settings, such as scaling and colors, can be adjusted in `ellipse_generator.py` to match user preferences.  
