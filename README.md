@@ -20,7 +20,11 @@ For more details, you can refer to the following research paper: [_Data-Driven A
 
 - **Prediction Interface (`predict.py`)** – A script that takes **operational parameters** as input, processes the data, and uses the **pretrained model** to generate predictions, saving the results in a structured CSV file.  
 
-- **Ellipse Visualization (`ellipse_generator.py`)** – A script that reads the **predicted semi-axis values** and generates **visual representations** of the ellipses, saving them as images.  
+- **Ellipse Visualization (`ellipse_generator.py`)** – A script that reads the **predicted semi-axis values** and generates **visual representations** of the ellipses, saving them as images.
+
+## How to Cite
+If you use **EllipseAI_PredictDroplets** please cite the following:
+[Zenodo Repository](https://zenodo.org/records/13862494).
 
 
 
