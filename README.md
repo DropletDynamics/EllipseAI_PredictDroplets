@@ -25,11 +25,3 @@ For more details, you can refer to the following research paper: [_Data-Driven A
 ## How to Cite
 If you use **EllipseAI_PredictDroplets**, please cite the following: [EllipseAI_PredictDroplets](https://github.com/AngelaAresdeParga/EllipseAI_PredictDroplets).
 
-## LICENSE 
-This project is licensed under the **European Union Public License (EUPL) v1.2 with additional terms**:
-
-    The software may not be used for activities violating the United Nations Universal Declaration of Human Rights (UDHR).
-    Any modifications must retain this license and explicitly indicate changes.
-
-For more details, see the full license in the LICENSE file.
-
