@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
-from keras.models import load_model
+import tensorflow as tf
+from tensorflow.keras.models import load_model
+from tensorflow.keras.losses import MeanSquaredError
 from joblib import load
 
 # File paths
@@ -29,7 +31,7 @@ try:
 
     # Load the trained neural network model
     print("Loading model...")
-    model = load_model(MODEL_FILE)
+    model = load_model(MODEL_FILE, custom_objects={'mse': MeanSquaredError()})
 
     # Make predictions using the model
     print("Making predictions...")
@@ -56,4 +58,5 @@ except FileNotFoundError as e:
     print(f"Error: {e}. Please check that all required files exist.")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
+
 
