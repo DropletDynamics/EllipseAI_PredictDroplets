@@ -8,7 +8,7 @@ The images can be downloaded from the following repository: [Zenodo Repository](
 
 Additionally, related Python codes for **controlling, capturing, and processing droplet images** can be found in the following repository: [**InkJetDroplet**](https://github.com/DropletDynamics/InkJetDroplet).  
 
-The semi-axis values are predicted based on the **operational parameters** that define the voltage signal used by the **[MicroDrop inkjet dispenser device](https://www.microdrop.de/)**, which was used to generate the predicted droplets.
+The semi-axis values are predicted based on the **operational parameters** that define the voltage signal used by the **[MicroDrop inkjet dispenser device](https://www.microdrop.de/)**, which was used to generate the droplets.
 
 The same repository also contains a **database** with the **semi-axis values** and the **operational parameters**.
 
