@@ -10,7 +10,7 @@ Additionally, related Python codes for **controlling, capturing, and processing 
 
 The semi-axis values are predicted based on the **operational parameters** that define the voltage signal used by the **[MicroDrop inkjet dispenser device](https://www.microdrop.de/)**, which was used to generate the droplets.
 
-The same repository also contains a **database** with the **semi-axis values** and the **operational parameters**.
+The same repository also contains a **database** with the actual **semi-axis values** and the **operational parameters**.
 
 For more details, you can refer to the following research paper: [_Data-Driven Analysis of Droplet Morphology in Inkjet Systems: Toward Generating Stable Single-Drop Regimes_](https://doi.org/10.48550/arXiv.2501.13801).
 
@@ -35,8 +35,6 @@ To generate predictions, run `predict.py`, which will process `input.csv` and cr
 Once `output.csv` is generated, use `ellipse_generator.py` to **plot and visualize the predicted ellipses**. 
 
 This script will read the **predicted values** from `output.csv` and generate **ellipse images**, saving them in an output folder.  
-
-Additionally, `ellipse_generator.py` can be adjusted to **plot multiple ellipses in the same plot** according to specific needs, allowing for customized visualizations. 
 
 Users can modify its settings to optimize the display of ellipses based on their analysis requirements.  
  
