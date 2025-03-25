@@ -1,6 +1,6 @@
 numpy==1.26.2
 pandas==2.1.4
-keras==2.15.0
+keras==2.15.0 # Included to ensure proper loading of .h5 model if required
 tensorflow==2.15.0
 joblib==1.3.2
-scikit-learn==1.3.2
+scikit-learn==1.5.0 # Recommended secure version; use 1.3.2 temporarily if compatibility issues arise
